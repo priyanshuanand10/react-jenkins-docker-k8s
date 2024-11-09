@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE = "your-dockerhub-priyanshuanand/react-jenkins-docker-k8s"
+        DOCKER_IMAGE = "priyanshuanand/react-jenkins-docker-k8s"
     }
     stages {
         stage('Checkout') {
